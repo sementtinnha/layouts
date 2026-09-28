@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    width: 17%;
+    background-color: thistle;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 83%;
+}
+
+header {
+    height: 17vh;
+    background-color: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 66vh;
+    display: flex;
+}
+
+article {
+    width: 75%;
+    background-color: lightgreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 25%;
+    background-color: wheat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 17vh;
+    background-color: blueviolet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

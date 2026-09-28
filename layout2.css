@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 17vh;
+    background: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 66vh;
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    background: thistle;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 60%;
+    background: lightgreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 20%;
+    background: wheat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 17vh;
+    background: blueviolet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

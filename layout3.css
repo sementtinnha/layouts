@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    width: 18%;
+    background: thistle;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 82%;
+}
+
+header {
+    height: 18vh;
+    background: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 65vh;
+    background: #20b2aa;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 17vh;
+    background: blueviolet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

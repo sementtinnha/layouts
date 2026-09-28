@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    width: 12%;
+    background: thistle;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    width: 45px;
+    height: 18px;
+    margin: 5px;
+    font-size: 6px;
+}
+
+section {
+    width: 88%;
+}
+
+header {
+    height: 10vh;
+    background: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+}
+
+article {
+    width: 85%;
+    background: lightgreen;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa {
+    width: 45%;
+    height: 25%;
+    background: lightblue;
+    margin-top: 40px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-top: 40px;
+}
+
+.caixas div {
+    width: 40%;
+    height: 70px;
+    background: pink;
+}
+
+aside {
+    width: 15%;
+    background: wheat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside button {
+    width: 35px;
+    height: 35px;
+    font-size: 6px;
+    background: cyan;
+    border: none;
+}
+
+footer {
+    height: 10vh;
+    background: blueviolet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

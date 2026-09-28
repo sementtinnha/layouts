@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 18vh;
+    background: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 65vh;
+    background: lightgreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 17vh;
+    background: blueviolet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
